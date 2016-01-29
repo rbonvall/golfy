@@ -39,7 +39,7 @@ Now let’s begin with a straightforward implementation of the map function ``μ
     μfl.©$f(Tl)
          ¦μf(Fl)
 
-Remember that ``\``` is nil, ``©`` is cons,
+Remember that `` ` `` is nil, ``©`` is cons,
 and ``T`` and ``F`` work as car and cdr
 (but they are actually true and false).
 
@@ -96,7 +96,7 @@ Again, ``+`` can be any operator.
 For example, if we take the function composition binary operator ``°``,
 we can express a function pipeline like this::
 
-    \°:fgh
+    /°:fgh
 
 Here, ``:fgh`` is syntactic sugar for ``[f g h]``,
 a list of functions whose names are one-letter long.
